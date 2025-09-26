@@ -1,0 +1,49 @@
+.env
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Training logs
+runs/
+logs/
+tensorboard/
+
+# Dataset (ถ้ามีเก็บ local)
+data/
+datasets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtualenv
+venv/
+env/
+.venv/
+.env/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Environment variables
+*.env
+
+
